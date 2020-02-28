@@ -1,0 +1,11 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+.top-2rem {
+    top: 2rem;
+}
+
+.bg-primary {
+    background: rgb(255, 66, 104);
+}
