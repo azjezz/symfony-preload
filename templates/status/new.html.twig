@@ -1,0 +1,14 @@
+{% form_theme form 'status/form.html.twig' %}
+
+<div class="col-3 sticky top-2rem">
+    <div class="mx-auto w-3/4 rounded overflow-hidden shadow-lg bg-white">
+        {{ form_start(form, { 'attr': { 'class': 'w-full p-4 mx-auto max-w-lg' } }) }}
+        <img class="w-full" src="{{ asset('build/images/symfony-live-header.jpg') }}"
+             alt="SymfonyLive Tunis">
+        <div class="px-6 py-4">
+            {{ form_widget(form) }}
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 my-4 border border-gray-400 rounded shadow float-right">{{ button_label|default('Share') }}</button>
+        </div>
+        {{ form_end(form) }}
+    </div>
+</div>
