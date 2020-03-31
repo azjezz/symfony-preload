@@ -238,7 +238,7 @@
                 }
             ],
             "description": "PHP Standard Library",
-            "time": "2020-02-22T16:27:31+00:00"
+            "time": "2020-03-01T21:07:51+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -3634,16 +3634,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.0.4",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "2832d8cffc3a91df550ac42bcdce602f8c08be3e"
+                "reference": "26fb006a2c7b6cdd23d52157b05f8414ffa417b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/2832d8cffc3a91df550ac42bcdce602f8c08be3e",
-                "reference": "2832d8cffc3a91df550ac42bcdce602f8c08be3e",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/26fb006a2c7b6cdd23d52157b05f8414ffa417b6",
+                "reference": "26fb006a2c7b6cdd23d52157b05f8414ffa417b6",
                 "shasum": ""
             },
             "require": {
@@ -3685,7 +3685,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-31T09:13:47+00:00"
+            "time": "2020-03-30T14:14:32+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -3843,16 +3843,16 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v5.0.4",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "519bcb27ea53835c1e8e7f7c8a799c867d570156"
+                "reference": "a02d65b026413150223c010db3000028bf9770eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/519bcb27ea53835c1e8e7f7c8a799c867d570156",
-                "reference": "519bcb27ea53835c1e8e7f7c8a799c867d570156",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/a02d65b026413150223c010db3000028bf9770eb",
+                "reference": "a02d65b026413150223c010db3000028bf9770eb",
                 "shasum": ""
             },
             "require": {
@@ -3914,20 +3914,20 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2020-01-31T09:13:47+00:00"
+            "time": "2020-03-27T16:56:45+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.0.4",
+            "version": "v5.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "2a3c7fee1f1a0961fa9cf360d5da553d05095e59"
+                "reference": "481b7d6da88922fb1e0d86a943987722b08f3955"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/2a3c7fee1f1a0961fa9cf360d5da553d05095e59",
-                "reference": "2a3c7fee1f1a0961fa9cf360d5da553d05095e59",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/481b7d6da88922fb1e0d86a943987722b08f3955",
+                "reference": "481b7d6da88922fb1e0d86a943987722b08f3955",
                 "shasum": ""
             },
             "require": {
@@ -3976,7 +3976,7 @@
                 "mime",
                 "mime-type"
             ],
-            "time": "2020-01-04T14:08:26+00:00"
+            "time": "2020-03-27T16:56:45+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -4061,16 +4061,16 @@
         },
         {
             "name": "symfony/polyfill",
-            "version": "v1.14.0",
+            "version": "v1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill.git",
-                "reference": "62a4b708d0d53997ee2e8b9985bf1c50a0dea514"
+                "reference": "2b84d9e197081dca53d42edd3d8391596dfd32c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill/zipball/62a4b708d0d53997ee2e8b9985bf1c50a0dea514",
-                "reference": "62a4b708d0d53997ee2e8b9985bf1c50a0dea514",
+                "url": "https://api.github.com/repos/symfony/polyfill/zipball/2b84d9e197081dca53d42edd3d8391596dfd32c3",
+                "reference": "2b84d9e197081dca53d42edd3d8391596dfd32c3",
                 "shasum": ""
             },
             "require": {
@@ -4108,7 +4108,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.14-dev"
+                    "dev-master": "1.15-dev"
                 }
             },
             "autoload": {
@@ -4116,6 +4116,7 @@
                     "Symfony\\Polyfill\\": "src/"
                 },
                 "files": [
+                    "src/bootstrap.php",
                     "src/Apcu/bootstrap.php",
                     "src/Ctype/bootstrap.php",
                     "src/Php54/bootstrap.php",
@@ -4126,7 +4127,6 @@
                     "src/Php72/bootstrap.php",
                     "src/Php73/bootstrap.php",
                     "src/Php74/bootstrap.php",
-                    "src/Php80/bootstrap.php",
                     "src/Uuid/bootstrap.php",
                     "src/Iconv/bootstrap.php",
                     "src/Intl/Grapheme/bootstrap.php",
@@ -4167,7 +4167,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2020-02-13T08:46:04+00:00"
+            "time": "2020-03-25T18:58:44+00:00"
         },
         {
             "name": "symfony/property-access",
