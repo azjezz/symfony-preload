@@ -4125,16 +4125,16 @@
         },
         {
             "name": "symfony/polyfill",
-            "version": "v1.24.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill.git",
-                "reference": "6db783b3a48077f7102b6d7be6314d871eb7898c"
+                "reference": "d45b58e9f527e408fb28c4b6431b7284f8c168ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill/zipball/6db783b3a48077f7102b6d7be6314d871eb7898c",
-                "reference": "6db783b3a48077f7102b6d7be6314d871eb7898c",
+                "url": "https://api.github.com/repos/symfony/polyfill/zipball/d45b58e9f527e408fb28c4b6431b7284f8c168ff",
+                "reference": "d45b58e9f527e408fb28c4b6431b7284f8c168ff",
                 "shasum": ""
             },
             "require": {
@@ -4155,6 +4155,7 @@
                 "symfony/polyfill-php74": "self.version",
                 "symfony/polyfill-php80": "self.version",
                 "symfony/polyfill-php81": "self.version",
+                "symfony/polyfill-php82": "self.version",
                 "symfony/polyfill-util": "self.version",
                 "symfony/polyfill-uuid": "self.version",
                 "symfony/polyfill-xml": "self.version"
@@ -4167,7 +4168,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.26-dev"
                 }
             },
             "autoload": {
@@ -4191,6 +4192,7 @@
                     "src/Intl/Icu/Resources/stubs",
                     "src/Intl/MessageFormatter/Resources/stubs",
                     "src/Intl/Normalizer/Resources/stubs",
+                    "src/Php82/Resources/stubs",
                     "src/Php80/Resources/stubs",
                     "src/Php73/Resources/stubs"
                 ]
@@ -4231,7 +4233,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-04T09:26:42+00:00"
+            "time": "2022-06-02T08:30:38+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -5072,12 +5074,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\String\\": ""
-                },
                 "files": [
                     "Resources/functions.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
                 "exclude-from-classmap": [
                     "/Tests/"
                 ]
@@ -5781,16 +5783,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.3.8",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c"
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/972d8604a92b7054828b539f2febb0211dd5945c",
-                "reference": "972d8604a92b7054828b539f2febb0211dd5945c",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c38fd6b0b7f370c198db91ffd02e23b517426b58",
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
                 "shasum": ""
             },
             "require": {
@@ -5805,7 +5807,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -5849,7 +5851,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-04T06:59:48+00:00"
+            "time": "2022-09-28T08:42:51+00:00"
         },
         {
             "name": "webimpress/safe-writer",
